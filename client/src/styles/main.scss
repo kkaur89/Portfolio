@@ -1,6 +1,8 @@
 body {
-  background-image: url('../assets/4f44ff48c097572371c52ee43137c467.jpg');
+  background-image: url('../assets/23b4b2764e611ef403eb49fbd4068c91.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  // background-position: center;
 }
 
 
@@ -9,7 +11,26 @@ body {
   justify-content: center;
 
 }
+div.ui.segment {
+  margin: 0;
+}
 
+.Home {
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(235, 170, 133, 0.3);
+}
+
+.home-text {
+  margin-left: 3%;
+  margin-right: 3%;
+  // background: rgba(235, 170, 133, 0.3);
+  padding: 3% 20%;
+
+}
 
 
 

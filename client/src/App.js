@@ -8,8 +8,9 @@ const App = () => {
   
   return (
     <>
-      <Navbar />
+     
       <Home />
+      <Navbar />
     </>
 
   )
