@@ -23,7 +23,8 @@ const AboutMe = () => {
               <br />
               <div className="me">
                 <p>{'Hi my name is Karenjeet (Karen for short), I recently graduated from General Assembly as a Software Engineer. Prior to GA, my experience has been working in retail as a Fashion Buyer, which has nourished my analytical and strategic thinking skills.'}</p>
-                <p>{'My attraction to software engineering was a result of becoming more self aware of how tech is integral in our personal and professional lives, and knew this was something that I wanted to be a part of. The industry also encourages learning, champions change and creativity which appeal to my professional values. So after months of research and advice from friends and family, I enrolled onto the Software Engineering Immersive course at GA and have not looked back since.'}</p>
+                <p>{'My attraction to software engineering was a result of becoming more self aware of how integral tech is in our personal and professional lives, and knew this was something that I wanted to be a part of. The industry also encourages learning, champions change and creativity which appeal to my professional values.'}</p>
+                <p>{'So after months of research and advice from friends and family, I enrolled onto the Software Engineering Immersive course at GA and have not looked back since.'}</p>
               </div>
             </Grid.Column>
             <Grid.Column>

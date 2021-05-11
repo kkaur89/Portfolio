@@ -3,6 +3,7 @@ import AboutMe from './AboutMe'
 import Navbar from './Navbar'
 import { Icon } from 'semantic-ui-react'
 import { WindupChildren, Pace } from 'windups'
+import Projects from './Projects'
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
             <Pace ms={100}> <h2>{'FULL STACK SOFTWARE ENGINEER'}</h2></Pace>
           </WindupChildren>
 
-          <Icon name='angle double down' size='big' className="arrow"/>
+          <Icon name='angle double down' size='huge' className="arrow"/>
         </div>
       </div>
       <div className="navbar">
@@ -26,6 +27,9 @@ const Home = () => {
       </div>
       <div className="about">
         <AboutMe />
+      </div>
+      <div className="projects">
+        <Projects />
       </div>
     </>
   )
