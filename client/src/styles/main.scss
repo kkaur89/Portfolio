@@ -1,10 +1,11 @@
 body {
-  background-image: url('../assets/23b4b2764e611ef403eb49fbd4068c91.jpg');
+  background-image: url('../assets/017c72b198a8ae79ec2a7f679a01c7f7.jpg');
   background-size: cover;
   background-attachment: fixed;
   // background-position: center;
 }
 
+// NAVBAR
 
 .center {
   display: flex;
@@ -15,6 +16,7 @@ div.ui.segment {
   margin: 0;
 }
 
+// HOMEPAGE
 .Home {
   text-align: center;
   height: 40vh;
@@ -32,6 +34,67 @@ div.ui.segment {
 
 }
 
+.arrow:hover {
+  animation: pulse 0.5s;
+  animation-iteration-count: infinite; 
+}
 
+@keyframes pulse {
+  from {
+    transform : scale(1);
+}
+50% {
+    transform : scale(0.75);
+}
+to {
+    transform : scale(1);
+}
+}
+
+// ABOUT ME 
+
+.about {
+  background: rgba(231, 231, 230, 0.3);
+}
+
+.me {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+div.ui.horizontal.divider {
+  margin: 0;
+}
+
+.ui.ui.segment.aboutme.aboutme {
+  background: none;
+  border: none;
+}
+
+h1.ui.header.meheader {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.devicon-git-plain {
+  max-width: 7rem;
+}
+
+/* if you want to change the original color */
+.devicon-git-plain path {
+  fill: #585758;
+  
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-logo {
+  padding: 3%;
+  width: 7rem;
+  height: 7rem;
+}
 
 @import 'semantic-ui-css/semantic.min.css'
