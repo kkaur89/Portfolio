@@ -32,11 +32,21 @@ const Navbar = () => {
             icon ='bars'
           >
             <Dropdown.Menu>
-              <Dropdown.Item text='About'/>
-              <Dropdown.Item text='Projects'/>
-              <Dropdown.Item text='Experience'/>
-              <Dropdown.Item text='Interests'/>
-              <Dropdown.Item text='Contact'/>
+              <a href='#about'>
+                <Dropdown.Item text='About'style={{ color: 'black' }}/>
+              </a>
+              <a href='#projects'>
+                <Dropdown.Item text='Projects' style={{ color: 'black' }}/>
+              </a>
+              <a href='#experience'>
+                <Dropdown.Item text='Experience' style={{ color: 'black' }}/>
+              </a>
+              <a href='#interests'>
+                <Dropdown.Item text='Interests' style={{ color: 'black' }}/>
+              </a>
+              <a href='#contact'>
+                <Dropdown.Item text='Contact' style={{ color: 'black' }}/>
+              </a>
             </Dropdown.Menu>
           </Dropdown>
         </Segment>

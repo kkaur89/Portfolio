@@ -53,8 +53,9 @@ to {
 
 // ABOUT ME 
 
+
 .about {
-  background: rgba(231, 231, 230, 0.3);
+  background: rgba(231, 231, 230, 0.5);
 }
 
 .me {
@@ -117,7 +118,7 @@ h1.ui.header.projectsheader {
 }
 
 .tab-container {
-  padding: 1rem;
+  padding: 1%;
   background: rgba(235, 170, 133, 0.3);
 }
 
@@ -139,10 +140,56 @@ img.ui.massive.image.project-image {
   text-align: center;
 }
 
+.mobile-tab {
+  overflow-x: scroll;
+}
+
 // EXPERIENCE PAGE
 
 .experience-grids {
-  padding-top: 1rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
+
+div.ui.segment.experience-container {
+  background: rgba(245, 245, 241, 0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ga-image {
+  width: 80%;
+
+}
+
+// INTEREST PAGE
+
+.interest-container {
+  background: rgba(235, 170, 133, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  
+}
+
+.grid-container {
+  width: 80%;
+}
+
+div.column.travelling {
+  padding: 0;
+  margin: 0;
+}
+
+
 
 @import 'semantic-ui-css/semantic.min.css'

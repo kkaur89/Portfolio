@@ -2,8 +2,22 @@
 /* eslint-disable react/display-name */
 import React from 'react'
 import { Tab, Image, Header, Icon, Divider, Modal, Button, Grid } from 'semantic-ui-react'
+import { createMedia } from '@artsy/fresnel'
 
 const Projects = () => {
+
+  const AppMedia = createMedia({
+    breakpoints: {
+      mobile: 300,
+      tablet: 768,
+      computer: 992,
+      largeScreen: 1200,
+      widescreen: 1920,
+    },
+  })
+  const mediaStyles = AppMedia.createMediaStyle()
+  
+  const { Media, MediaContextProvider } = AppMedia
 
   const [open, setOpen] = React.useState(false)
   const [openOne, setOpenOne] = React.useState(false)
@@ -108,7 +122,13 @@ const Projects = () => {
         </Header>
       </div>
       <div className="tab-container">
-        <Tab menu={{ fluid: true, vertical: true, tabular: true }} panes={panes} />
+        <style>{mediaStyles}</style>
+        <MediaContextProvider>
+          <Tab  menu={{ fluid: false, vertical: false, tabular: true }} panes={panes} as={Media} at="mobile" className="mobile-tab"/>
+        </MediaContextProvider>
+        <MediaContextProvider>
+          <Tab  menu={{ fluid: true, vertical: true, tabular: true }} panes={panes} as={Media} greaterThanOrEqual="tablet"/>
+        </MediaContextProvider>
         <Modal
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}

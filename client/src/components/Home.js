@@ -5,6 +5,8 @@ import { Icon } from 'semantic-ui-react'
 import { WindupChildren, Pace } from 'windups'
 import Projects from './Projects'
 import Experience from './Experience'
+import Interests from './Interests'
+import Contact from './Contact'
 
 
 const Home = () => {
@@ -27,7 +29,7 @@ const Home = () => {
       <div className="navbar">
         <Navbar />
       </div>
-      <div className="about">
+      <div className="aboutpage">
         <AboutMe />
       </div>
       <div className="projects">
@@ -35,6 +37,12 @@ const Home = () => {
       </div>
       <div className="experience">
         <Experience />
+      </div>
+      <div className="interests">
+        <Interests />
+      </div>
+      <div className="contact">
+        <Contact />
       </div>
     </>
   )

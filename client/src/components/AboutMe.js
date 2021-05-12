@@ -33,7 +33,7 @@ const AboutMe = () => {
                     SKILLS
               </Header>
               <div className="logo-container">
-                <Grid.Row stackable columns={5}>
+                <Grid.Row columns={5}>
                   <Grid.Column textAlign='center'>
                     <div className="tech-logo">
                       <svg viewBox="0 0 128 128" className="devicon-git-plain">
