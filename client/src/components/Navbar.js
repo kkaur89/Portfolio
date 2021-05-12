@@ -46,37 +46,40 @@ const Navbar = () => {
           <Menu inverted pointing secondary icon='labeled' className="center" >
             <Menu.Item
               name='About'
-          
             >
               <Icon name='user outline' />
-          About
+              <a href='#about'>About</a>
             </Menu.Item>
             <Menu.Item
               name='Projects'
+              target='_blank'
               active={activeItem === 'Projects'}
             >
               <Icon name='laptop' />
-          Projects
+              <a href='#projects'>Projects</a>
             </Menu.Item>
             <Menu.Item
               name='Experience'
+              target='_blank'
               active={activeItem === 'Experience'}
             >
               <Icon name='file alternate outline' />
-          Experience
+              <a href='#experience'>Experience</a>
             </Menu.Item>
             <Menu.Item
               name='Interests'
+              target='_blank'
               active={activeItem === 'Interests'}>
               <Icon name='map outline' />
-          Interests
+              <a href='#interests'>Interests</a>
             </Menu.Item>
             <Menu.Item
               name='Contact'
+              target='_blank'
               active={activeItem === 'Contact'}
             >
               <Icon name='address card outline' />
-          Contact
+              <a href='#contact'>Contact</a>
             </Menu.Item>
           </Menu>
         </Segment>
