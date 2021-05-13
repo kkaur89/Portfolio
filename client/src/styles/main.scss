@@ -19,11 +19,15 @@ div.ui.segment {
 // HOMEPAGE
 .Home {
   text-align: center;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(235, 170, 133, 0.3);
+}
+
+h1.name {
+  font-size: 4rem;
 }
 
 .home-text {
@@ -144,6 +148,16 @@ img.ui.massive.image.project-image {
   overflow-x: scroll;
 }
 
+.ui.menu.item {
+  font-weight: bold;
+}
+
+.ui.vertical.tabular.menu {
+  background: rgba(245, 245, 241, 0.7);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
 // EXPERIENCE PAGE
 
 .experience-grids {
@@ -190,6 +204,88 @@ div.column.travelling {
   margin: 0;
 }
 
+// CONTACT
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: rgba(245, 245, 241, 0.8);
+  width: 95%;
+  border-radius: 1rem;
+}
+
+button.ui.grey.huge.circular.icon.button.each-button {
+  margin-bottom: 1%;
+}
+
+
+.contact-link {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 414px) {
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgba(245, 245, 241, 0.8);
+    width: 95%;
+    border-radius: 1rem;
+  }
+  .contact-link {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 1rem;
+  }
+  .tech-logo {
+    padding: 2%;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .ui.tabular.menu .item {
+    padding-left: 3%;
+    padding-right: 3%;
+    background: rgba(245, 245, 241, 0.7);
+  }
+
+  div.tab-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  h1.name {
+    font-size: 3rem;
+  }
+
+  .home-text {
+    margin-left: 3%;
+    margin-right: 3%;
+    // background: rgba(235, 170, 133, 0.3);
+    padding: 3% 10%;
+  
+  }
+}
 
 
 @import 'semantic-ui-css/semantic.min.css'

@@ -12,13 +12,14 @@ const AboutMe = () => {
       <Segment padded='very'className="aboutme">
         <Grid columns={2} stackable textAlign='center'>
           <Divider vertical></Divider>
-          <Grid.Row verticalAlign='middle'>
+          <Grid.Row verticalAlign='top'>
             <Grid.Column>
            
               <Header as='h1' className="meheader">
                 <Icon name='user outline' />
         WHO IS KAREN?
               </Header>
+              <hr />
               <Header as='h3'>SOFTWARE ENGINEER | FASHION ENTHUSIAST | KEEN TRAVELLER</Header>
               <br />
               <div className="me">
@@ -32,6 +33,7 @@ const AboutMe = () => {
                 <Icon name='cogs' />
                     SKILLS
               </Header>
+              <hr />
               <div className="logo-container">
                 <Grid.Row columns={5}>
                   <Grid.Column textAlign='center'>

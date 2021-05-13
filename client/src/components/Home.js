@@ -18,7 +18,7 @@ const Home = () => {
       <div className="Home">
         <div className="home-text">
           <WindupChildren>
-            <Pace ms={100}> <h1>{'KAREN KAUR'}</h1></Pace>
+            <Pace ms={100}> <h1 className="name">{'KAREN KAUR'}</h1></Pace>
             <br />
             <Pace ms={100}> <h2>{'FULL STACK SOFTWARE ENGINEER'}</h2></Pace>
           </WindupChildren>

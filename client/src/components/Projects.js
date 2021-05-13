@@ -127,7 +127,7 @@ const Projects = () => {
           <Tab  menu={{ fluid: false, vertical: false, tabular: true }} panes={panes} as={Media} at="mobile" className="mobile-tab"/>
         </MediaContextProvider>
         <MediaContextProvider>
-          <Tab  menu={{ fluid: true, vertical: true, tabular: true }} panes={panes} as={Media} greaterThanOrEqual="tablet"/>
+          <Tab  menu={{ fluid: true, vertical: true, tabular: true }} panes={panes} as={Media} greaterThanOrEqual="tablet" className="tablet-tab"/>
         </MediaContextProvider>
         <Modal
           onClose={() => setOpen(false)}
@@ -138,9 +138,10 @@ const Projects = () => {
             <Modal.Description>
               <Grid columns={2} stackable textAlign='center'>
                 <Divider vertical></Divider>
-                <Grid.Row verticalAlign='middle'>
+                <Grid.Row verticalAlign='top'>
                   <Grid.Column>
                     <Header>What is FitBox?</Header>
+                    <hr />
                     <div className="project-text">
                       <p>{'FitBox is an app related to all things Health and Fitness. When logged in the user is able to browse a series of videos, recipes and articles.'}</p>
                       <p>{'When successfully registered, each user will have their own profile page where they can then save content to their profile as well as follow other users.'}</p>
@@ -149,6 +150,7 @@ const Projects = () => {
                   </Grid.Column>
                   <Grid.Column>
                     <Header>Tech used</Header>
+                    <hr />
                     <div className="logo-container">
                       <Grid.Row columns={3}>
                         <Grid.Column textAlign='center'>
@@ -220,9 +222,10 @@ const Projects = () => {
             <Modal.Description>
               <Grid columns={2} stackable textAlign='center'>
                 <Divider vertical></Divider>
-                <Grid.Row verticalAlign='middle'>
+                <Grid.Row verticalAlign='top'>
                   <Grid.Column>
                     <Header>What is Icelander?</Header>
+                    <hr />
                     <div className="project-text">
                       <p>{'Icelander is an app where users can explore self-drive tours of the country. If you are not registered or logged in, you can still view the map of Iceland which renders all the places available to visit. Click on a icon to see more info about that location.'}</p>
                       <p>{'Once logged in, you are able to rate any location, view all pre packaged routes and the daily itinerary for each package. The user has their own profile page where they can save thier favourite places in Iceland.'}</p>
@@ -231,6 +234,7 @@ const Projects = () => {
                   </Grid.Column>
                   <Grid.Column>
                     <Header>Tech used</Header>
+                    <hr />
                     <div className="logo-container">
                       <Grid.Row columns={3}>
                         <Grid.Column textAlign='center'>
@@ -304,9 +308,10 @@ const Projects = () => {
             <Modal.Description>
               <Grid columns={2} stackable textAlign='center'>
                 <Divider vertical></Divider>
-                <Grid.Row verticalAlign='middle'>
+                <Grid.Row verticalAlign='top'>
                   <Grid.Column>
                     <Header>Fancy a Tipple?</Header>
+                    <hr />
                     <div className="project-text">
                       <p>{'Tipple Your Fancy is a React app that uses a public API. The API is all things cocktail related, and the app allows the user search any cocktail by name or ingredient. The search results are displayed in a grid on a seperate page.'}</p>
                       <p>{'Click on each grid to see full details of each cocktail, such as the method and ingredients used. On the main page there is an animated cocktail shaker which renders random cocktails also.'}</p>
@@ -315,6 +320,7 @@ const Projects = () => {
                   </Grid.Column>
                   <Grid.Column>
                     <Header>Tech used</Header>
+                    <hr />
                     <div className="logo-container">
                       <Grid.Row columns={3}>
                         <Grid.Column textAlign='center'>
@@ -376,9 +382,10 @@ const Projects = () => {
             <Modal.Description>
               <Grid columns={2} stackable textAlign='center'>
                 <Divider vertical></Divider>
-                <Grid.Row verticalAlign='middle'>
+                <Grid.Row verticalAlign='top'>
                   <Grid.Column>
                     <Header>Connect 4</Header>
+                    <hr />
                     <div className="project-text">
                       <p>{'This game is a modern spin on the classic game Connect 4. The theme is luxury handbags within a store environment.'}</p>
                       <p>{'This is a two player game with a luxury handbag assigned to each user instead of coloured discs, and the shelves act as the grid.'}</p>
@@ -387,6 +394,7 @@ const Projects = () => {
                   </Grid.Column>
                   <Grid.Column>
                     <Header>Tech used</Header>
+                    <hr />
                     <div className="logo-container">
                       <Grid.Row columns={3}>
                         <Grid.Column textAlign='center'>
