@@ -43,7 +43,7 @@ const Experience = () => {
               </Divider>
               <h5>2014 - 2020 | LONDON</h5>
               <p>{'Curating commercial apparel packages each season to drive departmental sales and meet/exceed business KPIs. Working across multiple sub brands, which each had their own critical path.'}</p>
-              <p>{'Strategic financial planning behind each SKU to maximise potential, minimise discount and grow topline average unit retail. Also reponsible for leading and coaching a team of 4, responsible for their everyday tasks and career development.'}</p>
+              <p>{'Strategic financial planning behind each SKU to maximise potential, minimise discount and grow topline average unit retail. Also responsible for leading and coaching a team of 4, responsible for their everyday tasks and career development.'}</p>
               <p>{'Collaboration across internal counterparts within the UK, but also key partnerships with Global US and APAC partners to ensure collections are coherent as a global brand and inline with global strategies.'}</p>
             </Segment>
           </Grid.Column>
@@ -57,7 +57,7 @@ const Experience = () => {
               </Divider>
               <h5>2012 - 2014 | LONDON</h5>
               <p>{'Assisting my buyer with creating commercial packages across multiple apparel categories.'}</p>
-              <p>{'Coaching and managing entry-level assistants, helping to prioritising day to day tasks as well as developing them for the next level. Ensuring deliveries were being tracked and on time, purchase orders were being raised correctly, and sample management.'}</p>
+              <p>{'Coaching and managing entry-level assistants, helping to prioritise day to day tasks as well as develop them for the next level. Ensuring deliveries were being tracked and on time, purchase orders were being raised correctly, and sample management.'}</p>
               <p>{'Offering solutions to any problems that occur, liaising with all the relevant departments before proposing to the line manager.'}</p>
               <br/>
             </Segment>
